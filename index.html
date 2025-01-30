@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Week & Anniversary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Valentine's Week & Our 7-Month Anniversary</h1>
+
+        <!-- Love Timer -->
+        <h2>⏳ We've Been in Love For:</h2>
+        <div class="timer-container">
+            <p class="timer-text" id="loveTimer">Loading...</p>
+        </div>
+
+        <!-- Valentine's Week Countdown -->
+        <div class="countdown-section">
+            <h2>🌹 Rose Day (Feb 7)</h2>
+            <p id="rose-countdown"></p>
+            <button id="rose-btn" disabled onclick="unlockPage('rose')">🔓 Unlock</button>
+        </div>
+
+        <div class="countdown-section">
+            <h2>💍 Propose Day (Feb 8)</h2>
+            <p id="propose-countdown"></p>
+            <button id="propose-btn" disabled onclick="unlockPage('propose')">🔓 Unlock</button>
+        </div>
+
+        <div class="countdown-section">
+            <h2>❤️ Chocolate Day (Feb 9)</h2>
+            <p id="chocolate-countdown"></p>
+            <button id="chocolate-btn" disabled onclick="unlockPage('chocolate')">🔓 Unlock</button>
+        </div>
+
+        <div class="countdown-section">
+            <h2>💌 Teddy Day (Feb 10)</h2>
+            <p id="teddy-countdown"></p>
+            <button id="teddy-btn" disabled onclick="unlockPage('teddy')">🔓 Unlock</button>
+        </div>
+
+        <div class="countdown-section">
+            <h2>💖 Promise Day (Feb 11)</h2>
+            <p id="promise-countdown"></p>
+            <button id="promise-btn" disabled onclick="unlockPage('promise')">🔓 Unlock</button>
+        </div>
+
+        <div class="countdown-section">
+            <h2>💝 Hug Day (Feb 12)</h2>
+            <p id="hug-countdown"></p>
+            <button id="hug-btn" disabled onclick="unlockPage('hug')">🔓 Unlock</button>
+        </div>
+
+        <div class="countdown-section">
+            <h2>💋 Kiss Day (Feb 13)</h2>
+            <p id="kiss-countdown"></p>
+            <button id="kiss-btn" disabled onclick="unlockPage('kiss')">🔓 Unlock</button>
+        </div>
+
+        <div class="countdown-section">
+            <h2>💑 Valentine's Day (Feb 14)</h2>
+            <p id="valentine-countdown"></p>
+            <button id="valentine-btn" disabled onclick="unlockPage('valentine')">🔓 Unlock</button>
+        </div>
+
+        <div class="countdown-section">
+            <h2>💖 7th-Month Anniversary</h2>
+            <p id="anniversary-countdown"></p>
+            <button id="anniversary-btn" disabled onclick="unlockPage('anniversary')">🔓 Unlock</button>
+        </div>
+
+        <div class="countdown-section">
+            <h2>Need a Hug? 🤗</h2>
+            <button onclick="showHug()">💖 Hug Me!</button>
+            <div id="hug-container"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
